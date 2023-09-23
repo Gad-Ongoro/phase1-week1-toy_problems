@@ -2,6 +2,9 @@ function gradeCalculator() {
     let input = prompt("Enter student's marks");
   
     let marks = parseFloat(input);
+
+    //test it out (remove the comments from line 7)
+    //let marks = 60;
   
       if (marks > 79) {
         console.log("A");
@@ -18,3 +21,5 @@ function gradeCalculator() {
 
 //call the function which grades the marks
 gradeCalculator();
+
+//console.log(gradeCalculator);

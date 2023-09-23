@@ -4,9 +4,8 @@ function demeritPointsCalculator(kms) {
     const maximumDemeritPoints = 12;
 
 // Prompt for car speed
-   const input = prompt('Enter the car\'s speed (in km/h):');
-   const carSpeed = parseInt(input);
-
+    const input = prompt('Enter speed (in km/h):');
+    const carSpeed = parseInt(input);
 
 // checks  
     if (kms <= speedLimit) {
@@ -24,3 +23,5 @@ function demeritPointsCalculator(kms) {
   
 //function call
 demeritPointsCalculator(carSpeed);
+
+//console.log(demeritPointsCalculator(90));
